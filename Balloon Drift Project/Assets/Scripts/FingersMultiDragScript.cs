@@ -26,7 +26,7 @@ namespace DigitalRubyShared
             public GameObject GameObject;
             public Vector2 Offset;
         }
-
+    
 		// game object to drag state
 		private readonly Dictionary<GameObject, DragState> draggingObjectsByGameObject = new Dictionary<GameObject, DragState>();
 
